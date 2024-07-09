@@ -16,12 +16,12 @@ header{
 .heading{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(181, 179, 179);
-    animation: example 2s infinite;
-    @keyframes example {
-        0% {color: rgb(209, 128, 62);}
-        50% {color: rgb(181, 179, 179);}
-        100% {color: rgb(209, 128, 62);}    
-    }
+    animation: example 1s infinite;
+}
+@keyframes example {
+    0% {color: rgb(228, 128, 46);}
+    50% {color: rgb(181, 179, 179);}
+    100% {color: rgb(235, 118, 23);}    
 }
 .nav{
     height: 8vh;
